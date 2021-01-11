@@ -98,5 +98,7 @@ int main() {
   Point optimum(0, 0);
 
   optimum = GradientDescent(optimum);
-  std::cout << "(" << optimum.x << ", " << optimum.y << ")" << std::endl;
+  std::cout << Function(optimum) << std::endl;
+
+  return 0;
 }
